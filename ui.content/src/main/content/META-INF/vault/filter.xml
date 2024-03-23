@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/digisite" mode="merge"/>
+    <filter root="/content/digisite" mode="merge"/>
+    <filter root="/content/dam/digisite" mode="merge">
+        <exclude pattern="/content/dam/digisite(/.*)?"/>
+        <include pattern="/content/dam/digisite/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/digisite/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/digisite" mode="merge"/>
+</workspaceFilter>

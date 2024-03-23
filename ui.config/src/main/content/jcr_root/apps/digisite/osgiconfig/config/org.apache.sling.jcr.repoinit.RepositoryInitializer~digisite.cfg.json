@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/digisite",
+        "create path (nt:unstructured) /content/dam/digisite/jcr:content",
+        "set properties on /content/dam/digisite/jcr:content\n  set cq:conf{String} to /conf/digisite\n  set jcr:title{String} to \"Digisite\"\nend"
+    ]
+}
