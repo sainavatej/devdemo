@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-03-25T16:46:54.349+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/digisite/settings/wcm/templates/xf-web-variation"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Times of India-Header"
+        sling:resourceType="digisite/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="digisite/components/container"
+            layout="responsiveGrid">
+            <image
+                jcr:created="{Date}2024-03-25T16:36:08.987+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-03-25T16:37:15.904+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="digisite/components/image"
+                alt="Times of India"
+                altValueFromDAM="false"
+                disableLazyLoading="false"
+                displayPopupTitle="true"
+                fileReference="/content/dam/digisite/toi.png"
+                imageFromPageImage="false"
+                isDecorative="false"
+                linkTarget="_self"
+                titleValueFromDAM="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="3"/>
+                </cq:responsive>
+            </image>
+            <title
+                jcr:created="{Date}2024-03-25T16:38:46.147+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-03-25T16:39:28.277+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="THE TIMES OF INDIA"
+                sling:resourceType="digisite/components/title"
+                linkTarget="_self"
+                type="h1">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="5"/>
+                </cq:responsive>
+            </title>
+            <text
+                jcr:created="{Date}2024-03-25T16:45:21.809+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-03-25T16:45:27.251+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="digisite/components/text"
+                text="&lt;ul>&#xd;&#xa;&lt;li>&lt;b>&lt;i>25/03/2024&amp;nbsp; &amp;nbsp;MONDAY&lt;/i>&lt;/b>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="3"/>
+                </cq:responsive>
+            </text>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-03-25T17:02:44.333+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/digisite/settings/wcm/templates/times-of-india-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Times of India article"
+        sling:resourceType="digisite/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="digisite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="digisite/components/container"
+                layout="responsiveGrid">
+                <newsmodel
+                    jcr:created="{Date}2024-03-25T17:01:19.080+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-03-25T17:02:44.331+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="digisite/components/newsmodel"
+                    link="https://youtu.be/AfHAs8jxzZQ?si=VOvQhKbX0YzrCQBy"
+                    linkText="BIG BREAKING :- ED ARRESTS DELHI CM - ARAVIND KEJRIWAL"
+                    longdescription="&lt;p>&lt;b>&lt;i>New Delhi:&amp;nbsp;&lt;/i>&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>&lt;i>Arvind Kejriwal hasn't been given a computer or paper in the lock-up, the sources in the Enforcement Directorate said, raising questions over Delhi Minister Atishi's statement on Chief Minister's first order from the probe agency custody.&lt;/i>&lt;/p>&#xd;&#xa;&lt;p>Arvind Kejriwal was arrested by the Enforcement Directorate or ED on Thursday in connection with the Delhi liquor policy-linked money laundering case after searches at his official residence in the Civil Lines area of the national capital. A court on Friday sent him to the central agency's custody till March 28.&lt;/p>&#xd;&#xa;&lt;p>Delhi Water Minister Atishi, in a press conference this morning, said that Mr Kejriwal has issued his first direction from the Enforcement Directorate custody on running the city government, instructing to solve water and sewer-related problems in some areas of the national capital.&lt;/p>&#xd;&#xa;"
+                    shortdesc="‘Arvind Kejriwal won’t resign, AAP will take orders from prison.'"
+                    targetNewWindow="true"
+                    textIsRich="true"
+                    title="Big Breaking News from New Delhi "/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
