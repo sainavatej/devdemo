@@ -1,0 +1,21 @@
+<script>
+    $(document).ready(function() {
+        $.ajax({
+            url: '/bin/NodePropertiesServlet1',
+            type: 'GET',
+            dataType: 'html',
+            success: function(data) {
+                $('#nodePropertiesContainer').html(data); // Update the DOM with the servlet response
+            },
+            error: function(xhr, status, error) {
+                console.error('Error fetching node properties:', error);
+            }
+        });
+    });
+</script>
+
+<div id="nodePropertiesContainer">
+    <!-- Node properties will be populated here after AJAX call -->
+</div>
+
+
