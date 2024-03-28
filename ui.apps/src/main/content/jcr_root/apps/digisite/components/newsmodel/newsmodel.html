@@ -1,0 +1,10 @@
+<sly  data-sly-use.model="com.digisite.core.models.NewsModel"/>
+
+
+<h1> ${model.title} </h1>  <br>
+<h2>${model.shortdescription @context='html'}  </h2>
+${model.longdescription @context='html'}
+<a href="${model.link}" ${model.targetNewWindow ? 'target="_blank"' : ''}>${model.linkText}</a>
+
+
+
