@@ -1,0 +1,106 @@
+
+/* Styles for blue text color */
+.container-Styles__blue {
+    color: blue;
+}
+
+/* Styles for red text color */
+.container-Styles__red {
+    color: red;
+}
+
+/* Styles for yellow text color */
+.container-Styles__yellow {
+    color: yellow;
+}
+
+/* Styles for center alignment */
+.container-Styles__center {
+    text-align: center;
+}
+
+/* Styles for right alignment */
+.container-Styles__right {
+    text-align: right;
+}
+
+/* Styles for left alignment */
+.container-Styles__left {
+    text-align: left;
+}
+
+/* Styles for bold font weight */
+.container-Styles__bold {
+    font-weight: bold;
+}
+
+/* Styles for italic font style */
+.container-Styles__italic {
+    font-style: italic;
+}
+
+/* Styles for normal font weight */
+.container-Styles__normal {
+    font-weight: normal;
+}
+
+/* Styles for underline text */
+.container-Styles__underline {
+    text-decoration: underline;
+}
+
+/* Styles for large font size */
+.container-Styles__large {
+    font-size: 24px;
+}
+
+/* Styles for medium font size */
+.container-Styles__medium {
+    font-size: 18px;
+}
+
+/* Styles for small font size */
+.container-Styles__small {
+    font-size: 14px;
+}
+/* Styles for small image */
+.container-Styles__small-image {
+    width: 5px;
+}
+
+/* Styles for large image */
+.container-Styles__large-image {
+    width: 150x;
+}
+.container-Styles__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns of equal width */
+    grid-gap: 20px; /* Gap between grid items */
+}
+
+.container-Styles__grid-columns {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Three columns with the middle one twice as wide */
+    grid-gap: 20px; /* Gap between grid items */
+}
+
+.container-Styles__grid-fixed {
+    display: grid;
+    grid-template-columns: 100px 200px 100px; /* Three columns with fixed widths */
+    grid-gap: 20px; /* Gap between grid items */
+}
+
+.small{
+width:50px;
+    }
+
+    .large{
+width:80px;
+        }
+
+.text{
+color: Blue;
+            }         
+
+
+
